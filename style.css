@@ -116,7 +116,7 @@ button {
     padding: 20px;
     height: 100%;
     padding-top: 90px;
-    padding-bottom: 90px;
+    /* padding-bottom: 90px; */
 
 }
 
@@ -124,6 +124,7 @@ button {
     flex: 1;
     padding-left: 70px;
     padding-right: 70px;
+    height: auto;
 }
 
 .section-text h1 {
@@ -145,7 +146,7 @@ button {
 .new-img img {
     max-width: 100%;
     max-height: 70%;
-    height: 550px;
+    height: auto;
     width: 550px;
     /* padding-right: 20px; */
 }
@@ -236,4 +237,65 @@ button {
 
 }
 
+.new-img {
+    height: 900px;
+}
 
+.career-dev {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    padding: 60px;
+    align-items: center;
+}
+
+.career-dev p {
+    padding-top: 25px;
+}
+
+.career-dev h1 {
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.btns {
+    padding-right: 100px;
+}
+
+.right-text  h1{
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 20px;
+
+}
+
+.news-letter {
+    padding: 60px;
+    background: #06283D;
+}
+
+.news-letter p {
+    padding-top: 30px;
+    color: #fff;
+}
+.news-letter h1 {
+    color: #fff;
+}
+
+.right-text div {
+    padding-top: 30px;
+
+}
+
+.right-text div input {
+    border: solid 1px #06283D;
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+}
+
+.right-text div button{
+    color: #fff;
+    background: #06283D;
+}
