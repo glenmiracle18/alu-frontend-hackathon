@@ -207,6 +207,7 @@ button {
     text-align: center;
     padding-top: 60px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -217,6 +218,7 @@ button {
     position: relative;
     overflow: hidden;
     margin-right: 30px;
+    display: inline-block;
 }
 
 .card img {
