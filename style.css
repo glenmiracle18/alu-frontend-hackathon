@@ -9,7 +9,9 @@
     color: #06283D;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
 
@@ -22,6 +24,7 @@
 /* --------------Navbar------------------- */
 
 @media screen and (max-width: 767px) {
+
     :root {
         --nav-item-margin: 0;
     }
@@ -179,7 +182,7 @@ header .menu-btn:checked~.menu-icon .navicon:before,
         justify-content: space-between;
     }
 
-    .navbar h2 {        
+    .navbar h2 {
         color: var(--color-white);
     }
 
@@ -224,10 +227,10 @@ header {
     align-items: center;
     padding: 20px;
     background-color: var(--color-black);
-
+    width: 100%;
 }
 
-div.header-logo h2{
+div.header-logo h2 {
     color: var(--color-white);
 }
 
@@ -262,25 +265,31 @@ div.header-logo h2{
 
 button {
     cursor: pointer;
-    width: 70px;
     height: 40px;
     color: #06283D;
     border: solid 1px;
     font-size: 12px;
     margin-right: 8px;
-    padding: 3px;
+    padding: 5px 10px;
 }
 
 
 .login,
-.get-started {
+.get-started,
+.mentor {
     background: #06283D;
     color: #fff;
     border: solid 1px #06283D;
 }
 
+.login {
+    width: 70px;
+    font-weight: 500;
+}
+
 .signup,
 .learn-more {
+    width: 70px;
     background: #fff;
     color: #06283D;
 }
@@ -529,3 +538,75 @@ button {
     color: #fff;
     background: #06283D;
 }
+
+/* ---------------------- Mentor section ------------------ */
+/* Mentor Profiles Section */
+#mentor-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mentor-profile {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 30px;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mentor-profile img {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
+    /* Set the fixed width for the images */
+    height: 150px;
+    /* Set the fixed height for the images */
+    object-fit: cover;
+    /* Clip the images to fit the fixed size */
+    border-radius: 50%;
+    /* Create rounded corners */
+
+}
+
+t h1 {
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.mentor-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.mentor-profile h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.mentor-profile p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    #mentor-section {
+        flex-direction: column;
+    }
+
+    .mentor-profile {
+        max-width: 100%;
+    }
+}
+
+/* ----------------------------------------------------- */

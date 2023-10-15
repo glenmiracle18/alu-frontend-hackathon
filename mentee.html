@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Your Web Page Title</title>
+    <link rel="stylesheet" type="text/css" href="form-styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.jpg" />
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="navbar header-container">
+            <div class="logo header-logo">
+                <h2>CM-Hub</h2>
+            </div>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn">
+                <span class="navicon"></span>
+            </label>
+            <nav class="navbar-menu">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="index.html#career-dev" class="nav-link">Discover More</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#hero" class="nav-link">Get Started</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#section-3" class="nav-link">Find Mentors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#career-dev" class="nav-link">Apply Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="button">
+                            <button type="button" class="signup">Sign Up</button>
+                            <button type="button" class="login">Log in</button>
+                        </div>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+
+    </header>
+    <!-- addind the line beneath the header -->
+    <hr class="header-line">
+    <div class="container">
+        <div class="section-text"></div>
+        <h1>Welcome to Our Mentorship Program</h1>
+        <p>Join our mentorship program to receive guidance and support!</p>
+
+        <h2>Student Signup Form</h2>
+        <form action="/student_signup" method="post">
+            <label for="studentName">Name:</label>
+            <input type="text" id="studentName" name="studentName" required>
+            <br>
+
+            <label for="studentEmail">Email:</label>
+            <input type="email" id="studentEmail" name="studentEmail" required>
+            <br>
+
+            <label for="studentSkills">Skills/Interests:</label>
+            <input type="text" id="studentSkills" name="studentSkills" required>
+            <br>
+
+            <label for="studentBio">Tell us about yourself:</label>
+            <textarea id="studentBio" name="studentBio" rows="4" required></textarea>
+            <br>
+
+            <label for="studentDesiredMentor">Desired Mentor (if any):</label>
+            <input type="text" id="studentDesiredMentor" name="studentDesiredMentor">
+            <br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+
+</body>
+
+</html>

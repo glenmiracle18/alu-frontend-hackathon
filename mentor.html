@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Your Web Page Title</title>
+    <link rel="stylesheet" href="form-styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.jpg" />
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="navbar header-container">
+            <div class="logo header-logo">
+                <h2>CM-Hub</h2>
+            </div>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn">
+                <span class="navicon"></span>
+            </label>
+            <nav class="navbar-menu">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="index.html#career-dev" class="nav-link">Discover More</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#hero" class="nav-link">Get Started</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#section-3" class="nav-link">Find Mentors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#career-dev" class="nav-link">Apply Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="button">
+                            <button type="button" class="signup">Sign Up</button>
+                            <button type="button" class="login">Log in</button>
+                        </div>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Welcome to Our Mentorship Program</h1>
+        <p>Join our mentorship program and help others succeed!</p>
+
+        <h2>Mentor Signup Form</h2>
+        <form action="/mentor_signup" method="post">
+            <label for="mentorName">Name:</label>
+            <input type="text" id="mentorName" name="mentorName" required>
+            <br>
+
+            <label for="mentorEmail">Email:</label>
+            <input type="email" id="mentorEmail" name="mentorEmail" required>
+            <br>
+
+            <label for="mentorSkills">Skills/Expertise:</label>
+            <input type="text" id="mentorSkills" name="mentorSkills" required>
+            <br>
+
+            <label for="mentorBio">Bio/Introduction:</label>
+            <textarea id="mentorBio" name="mentorBio" rows="4" required></textarea>
+            <br>
+
+            <label for="mentorAvailability">Availability:</label>
+            <input type="text" id="mentorAvailability" name="mentorAvailability" required>
+            <br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
