@@ -36,16 +36,16 @@ Installation
 Clone this repository to your local machine:
 
 
-git clone https://github.com/glenmiracle18/alu-summative-project.github.io
+git clone https://github.com/glenmiracle18/alu-frontend-hackathon.github.io
 
 Navigate to the project directory:
-
 
 cd alu-summative-project.github.io
 
 Open the index.html file in your web browser to access CareerMentor Hub.
 
 Usage
+
 Home/Landing Page: Explore our platform's objectives and discover how CareerMentor Hub can benefit you.
 
 Meet Our Mentors: Connect with mentors who offer guidance in two categories:
@@ -108,4 +108,7 @@ We welcome contributions! If you'd like to contribute to CareerMentor Hub, pleas
 Fork this repository on GitHub.
 Clone your forked repository to your local machine.
 Create a new branch for your feature or bug fix.
-Make
+Make changes
+git add .
+git commit -m 
+git push
