@@ -15,10 +15,14 @@ Contributing
 License
 {CareerMentor Hub Logo}
 
+
 Introduction
+
 Welcome to CareerMentor Hub, a web-based platform created to bridge the gap between students and mentors for career development. Our mission is to empower students by connecting them with experienced mentors who can provide valuable guidance, career advice, and resume reviews. Whether you're a student seeking career insights or a professional willing to mentor, CareerMentor Hub is here to facilitate meaningful connections.
 
+
 Features
+
 Goal Setting: Students can set their career goals and aspirations.
 Find Mentors: Browse and connect with mentors based on categories.
 Diverse Mentorship: We offer a variety of mentors in two categories:
